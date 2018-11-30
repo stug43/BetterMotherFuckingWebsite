@@ -1,6 +1,5 @@
 body
-{
-margin:40px auto;
+{margin:40px auto;
 max-width:650px;
 line-height:1.6;
 font-size:17px;
@@ -8,6 +7,19 @@ color:#494341;
 padding:0 10px;
 }
 h1,h2,h3
-{
-line-height:1.2;
+{line-height:1.2;
+}
+button
+{float:right;
+}
+.psyche
+{background-color:magenta;
+}
+body.psyche p,body.psyche aside
+{color:blue;
+font-family:'papyrus';
+}
+body.psyche h1, body.psyche h2, body.psyche h3
+{color:green;
+font-family:'Comic Sans';
 }
