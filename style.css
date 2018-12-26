@@ -1,3 +1,19 @@
+@font-face {
+	font-family : "papyrus" ;
+	src : url("fonts/PAPYRUS.ttf") format("ttf") ,
+	url("fonts/PAPYRUS.eot") format("eot") ,
+	url("fonts/PAPYRUS.woff") format("woff") ,
+	url("fonts/PAPYRUS.svg") format("svg") ;
+}
+
+@font-face {
+	font-family : "comic sans" ;
+	src : url('fonts/comic_sans.svg') format('svg'),
+	url('fonts/comic_sans.woff') format('woff'),
+	url('fonts/comic_sans.eot') format('eot'),
+	url('fonts/comic_sans.ttf') format('ttf');
+}
+
 body
 {margin:40px auto;
 max-width:650px;
@@ -15,11 +31,11 @@ button
 .psyche
 {background-color:magenta;
 }
-body.psyche p,body.psyche aside
+.psyche p,.psyche aside
 {color:blue;
-font-family:'papyrus';
+font-family: 'papyrus' ;
 }
-body.psyche h1, body.psyche h2, body.psyche h3
+.psyche h1, .psyche h2, .psyche h3
 {color:green;
-font-family:'Comic Sans';
+font-family:'comic sans';
 }
